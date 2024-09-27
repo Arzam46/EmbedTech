@@ -1,0 +1,19 @@
+# Arduino build files
+*.o
+*.d
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.eep
+*.exe
+
+# Arduino libraries
+/libraries/
+
+# ESP32 specific
+/.pio/
+.vscode/
+build/
